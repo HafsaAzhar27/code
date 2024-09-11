@@ -7,25 +7,28 @@ const Page = () => {
       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
         <Image
           className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-          src="/Container Home.jpeg"
-          alt="home"
+          src="/download (24).jpeg"
+          alt="address"
           width="384"
           height="512"
         />
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
             <p className="text-lg font-medium">
-            A home is a special place where we feel safe and comfortable. It is not just a building.
-            It is where we share our lives with family and friends. A home is filled with memories and moments that make us feel happy and loved.
-            It is where we can be ourselves and find peace after a long day.
+            House No. 023, Street No. 45
+            Gulshan-e-Iqbal,
+            Rahim Yar Khan,
+            Near Market,
+            Punjab, 64200
+            Pakistan
             </p>
           </blockquote>
           <figcaption className="font-medium">
             <div className="text-sky-500 dark:text-sky-400">
-              HOME
+              Hafsa Azhar
             </div>
             <div className="text-slate-700 dark:text-slate-500">
-              RYK
+            RYK
             </div>
           </figcaption>
         </div>
